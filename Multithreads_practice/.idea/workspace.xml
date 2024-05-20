@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaitNOtify/CarConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitNOtify/CarConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaitNOtify/CarProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitNOtify/CarProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaitNOtify/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitNOtify/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaitNOtify/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaitNOtify/Parking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gjH4VAaWjRgXvnY49GwUnwkw8V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.WaitNOtify.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -46,7 +51,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WaitNOtify.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Volatile.Main" />
       <module name="Multithreads_practice" />
@@ -60,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitNOtify.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitNOtify.Main" />
+      <module name="Multithreads_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitNOtify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitNOtify.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716203876674</updated>
-      <workItem from="1716203877713" duration="1133000" />
+      <workItem from="1716203877713" duration="1540000" />
+      <workItem from="1716210620248" duration="2023000" />
     </task>
     <servers />
   </component>
