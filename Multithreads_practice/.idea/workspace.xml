@@ -50,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PageVisitors">
+  <component name="RunManager" selected="Application.ConcurrentCollections.TaskQueueManager.Main">
     <configuration name="ArraySumCalculating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySumCalculating.ArraySumCalculating" />
       <module name="Multithreads_practice" />
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Volatile.Main" />
+    <configuration name="ConcurrentCollections.TaskQueueManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.TaskQueueManager.Main" />
       <module name="Multithreads_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Volatile.*" />
+          <option name="PATTERN" value="ConcurrentCollections.TaskQueueManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="PageVisitors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.PageVisitors" />
+      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.PageVisitors.PageVisitors" />
       <module name="Multithreads_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConcurrentCollections.*" />
+          <option name="PATTERN" value="ConcurrentCollections.PageVisitors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentCollections.TaskQueueManager.Main" />
         <item itemvalue="Application.PageVisitors" />
         <item itemvalue="Application.ArraySumCalculating" />
         <item itemvalue="Application.ReentrantLock.Main" />
         <item itemvalue="Application.WaitNOtify.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <workItem from="1716366047129" duration="406000" />
       <workItem from="1716457473805" duration="2799000" />
       <workItem from="1716540247302" duration="1215000" />
-      <workItem from="1716822451881" duration="1099000" />
+      <workItem from="1716822451881" duration="2146000" />
     </task>
     <servers />
   </component>
