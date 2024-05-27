@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySumCalculating/MultithreadedArraySummarizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySumCalculating/MultithreadedArraySummarizer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
   "keyToString": {
     "Application.ArraySumCalculating.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PageVisitors.executor": "Run",
     "Application.ReentrantLock.Main.executor": "Run",
     "Application.WaitNOtify.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -50,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraySumCalculating">
+  <component name="RunManager" selected="Application.PageVisitors">
     <configuration name="ArraySumCalculating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySumCalculating.ArraySumCalculating" />
       <module name="Multithreads_practice" />
@@ -64,6 +64,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Volatile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageVisitors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.PageVisitors" />
+      <module name="Multithreads_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrentCollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PageVisitors" />
         <item itemvalue="Application.ArraySumCalculating" />
         <item itemvalue="Application.ReentrantLock.Main" />
         <item itemvalue="Application.WaitNOtify.Main" />
@@ -119,7 +133,9 @@
       <workItem from="1716271437590" duration="1722000" />
       <workItem from="1716287853302" duration="4283000" />
       <workItem from="1716366047129" duration="406000" />
-      <workItem from="1716457473805" duration="2180000" />
+      <workItem from="1716457473805" duration="2799000" />
+      <workItem from="1716540247302" duration="1215000" />
+      <workItem from="1716822451881" duration="1099000" />
     </task>
     <servers />
   </component>
