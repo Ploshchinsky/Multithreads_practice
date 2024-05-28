@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multithreads_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Multithreads_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcurrentCollections/PageVisitors/PageVisitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrentCollections/PageVisitors/PageVisitorCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcurrentCollections/PageVisitors/PageVisitors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConcurrentCollections/PageVisitors/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,10 @@
     "Application.ReentrantLock.Main.executor": "Run",
     "Application.WaitNOtify.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in Multithreads_practice.executor": "Run",
+    "JUnit.PageVisitorsTest.executor": "Run",
+    "JUnit.TaskQueueManagerTest.executor": "Run",
+    "JUnit.TaskQueueManagerTest.test1.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -61,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in Multithreads_practice">
+  <component name="RunManager" selected="JUnit.PageVisitorsTest">
     <configuration name="ConcurrentCollections.TaskQueueManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.TaskQueueManager.Main" />
       <module name="Multithreads_practice" />
@@ -75,23 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageVisitors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.PageVisitors.PageVisitors" />
-      <module name="Multithreads_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConcurrentCollections.PageVisitors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in Multithreads_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageVisitorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageVisitorsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PageVisitorsTest" />
         <item itemvalue="JUnit.All in Multithreads_practice" />
         <item itemvalue="JUnit.TaskQueueManagerTest" />
         <item itemvalue="JUnit.TaskQueueManagerTest.test1" />
         <item itemvalue="Application.ConcurrentCollections.TaskQueueManager.Main" />
-        <item itemvalue="Application.PageVisitors" />
       </list>
     </recent_temporary>
   </component>
@@ -142,11 +142,15 @@
       <workItem from="1716540247302" duration="1215000" />
       <workItem from="1716822451881" duration="2146000" />
       <workItem from="1716882985223" duration="135000" />
-      <workItem from="1716883124885" duration="1498000" />
+      <workItem from="1716883124885" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Multithreads_practice$All_in_Multithreads_practice.ic" NAME="All in Multithreads_practice Coverage Results" MODIFIED="1716885211814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Multithreads_practice$PageVisitorsTest.ic" NAME="PageVisitorsTest Coverage Results" MODIFIED="1716885743100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

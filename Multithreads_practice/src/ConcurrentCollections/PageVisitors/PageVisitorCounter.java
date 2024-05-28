@@ -3,7 +3,7 @@ package ConcurrentCollections.PageVisitors;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class PageVisitCounter {
+public class PageVisitorCounter {
     private static ConcurrentHashMap<String, Integer> pageCounter = new ConcurrentHashMap<>();
 
     public static void incrementPageVisit(String url) {
@@ -16,5 +16,9 @@ public class PageVisitCounter {
         for (Map.Entry<String, Integer> entry : pageCounter.entrySet()) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
+    }
+
+    public static int getPageCount() {
+        return pageCounter.values().stream().reduce(Integer::sum).get();
     }
 }

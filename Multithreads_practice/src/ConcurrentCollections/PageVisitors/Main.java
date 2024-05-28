@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class PageVisitors {
+public class Main {
     private static ExecutorService service = Executors.newFixedThreadPool(3);
 
     public static void main(String[] args) throws InterruptedException {
@@ -17,12 +17,12 @@ public class PageVisitors {
             service.submit(() -> {
                 int randomInt = new Random().nextInt(urls.length);
                 System.out.println(Thread.currentThread().getName() + " added new url - " + urls[randomInt]);
-                PageVisitCounter.incrementPageVisit(urls[randomInt]);
+                PageVisitorCounter.incrementPageVisit(urls[randomInt]);
             });
         }
         service.shutdown();
         service.awaitTermination(5_000, TimeUnit.MILLISECONDS);
 
-        PageVisitCounter.getStats();
+        PageVisitorCounter.getStats();
     }
 }
