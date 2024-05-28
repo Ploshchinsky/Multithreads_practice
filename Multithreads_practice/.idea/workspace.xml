@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multithreads_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Multithreads_practice.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +35,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArraySumCalculating.executor": "Run",
+    "Application.ConcurrentCollections.TaskQueueManager.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PageVisitors.executor": "Run",
     "Application.ReentrantLock.Main.executor": "Run",
     "Application.WaitNOtify.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5201845",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConcurrentCollections.TaskQueueManager.Main">
-    <configuration name="ArraySumCalculating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySumCalculating.ArraySumCalculating" />
-      <module name="Multithreads_practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Multithreads_practice">
     <configuration name="ConcurrentCollections.TaskQueueManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.TaskQueueManager.Main" />
       <module name="Multithreads_practice" />
@@ -84,39 +88,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLock.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReentrantLock.Main" />
+    <configuration name="All in Multithreads_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ReentrantLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitNOtify.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitNOtify.Main" />
+    <configuration name="TaskQueueManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WaitNOtify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskQueueManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskQueueManagerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskQueueManagerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Multithreads_practice" />
+        <item itemvalue="JUnit.TaskQueueManagerTest" />
+        <item itemvalue="JUnit.TaskQueueManagerTest.test1" />
         <item itemvalue="Application.ConcurrentCollections.TaskQueueManager.Main" />
         <item itemvalue="Application.PageVisitors" />
-        <item itemvalue="Application.ArraySumCalculating" />
-        <item itemvalue="Application.ReentrantLock.Main" />
-        <item itemvalue="Application.WaitNOtify.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +141,8 @@
       <workItem from="1716457473805" duration="2799000" />
       <workItem from="1716540247302" duration="1215000" />
       <workItem from="1716822451881" duration="2146000" />
+      <workItem from="1716882985223" duration="135000" />
+      <workItem from="1716883124885" duration="1498000" />
     </task>
     <servers />
   </component>
