@@ -1,6 +1,6 @@
 import ConcurrentCollections.PageVisitors.PageVisitorCounter;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.Map;
 import java.util.Random;
@@ -9,9 +9,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+@TestMethodOrder(MethodOrderer.DisplayName.class)
 public class PageVisitorsTest {
+
     @Test
-    public void mainTest() throws InterruptedException {
+    @DisplayName("Test #1")
+    public void test1() throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(4);
         String[] urls = {"www.first.com", "www.second.com",
                 "www.third.com", "www.google.com",
@@ -29,8 +32,12 @@ public class PageVisitorsTest {
         service.awaitTermination(5_000, TimeUnit.MILLISECONDS);
 
         PageVisitorCounter.getStats();
+    }
 
-        int expected = pageCount;
+    @Test
+    @DisplayName("Test #2")
+    public void test2() throws InterruptedException {
+        int expected = 10_000;
         int actual = PageVisitorCounter.getPageCount();
         Assertions.assertEquals(expected, actual, "Assertions Failed!");
     }
