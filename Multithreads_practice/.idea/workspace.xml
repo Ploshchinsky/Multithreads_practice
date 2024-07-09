@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PageVisitorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PageVisitorsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ploshchinsky/IdeaProjects/Genercis_Practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,24 +67,30 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PageVisitorsTest">
-    <configuration name="ConcurrentCollections.TaskQueueManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrentCollections.TaskQueueManager.Main" />
-      <module name="Multithreads_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConcurrentCollections.TaskQueueManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomQueueTest">
     <configuration name="All in Multithreads_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomQueueTest.customQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
+      <option name="METHOD_NAME" value="customQueueTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,23 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskQueueManagerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multithreads_practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskQueueManagerTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomQueueTest" />
+        <item itemvalue="JUnit.CustomQueueTest.customQueueTest" />
         <item itemvalue="JUnit.PageVisitorsTest" />
         <item itemvalue="JUnit.All in Multithreads_practice" />
         <item itemvalue="JUnit.TaskQueueManagerTest" />
-        <item itemvalue="JUnit.TaskQueueManagerTest.test1" />
-        <item itemvalue="Application.ConcurrentCollections.TaskQueueManager.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +141,9 @@
       <workItem from="1716822451881" duration="2146000" />
       <workItem from="1716882985223" duration="135000" />
       <workItem from="1716883124885" duration="2502000" />
-      <workItem from="1716886746673" duration="642000" />
+      <workItem from="1716886746673" duration="1546000" />
+      <workItem from="1716975226066" duration="35000" />
+      <workItem from="1720509060721" duration="853000" />
     </task>
     <servers />
   </component>
