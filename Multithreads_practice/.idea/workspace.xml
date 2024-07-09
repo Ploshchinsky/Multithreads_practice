@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ConcurrentBankTest/ConcurrentBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConcurrentBankTest/ConcurrentBankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,45 +34,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArraySumCalculating.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcurrentCollections.TaskQueueManager.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PageVisitors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReentrantLock.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitNOtify.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.All in Multithreads_practice.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PageVisitorsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TaskQueueManagerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TaskQueueManagerTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ploshchinsky/IdeaProjects/Genercis_Practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5201845&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraySumCalculating.executor": "Run",
+    "Application.ConcurrentCollections.TaskQueueManager.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PageVisitors.executor": "Run",
+    "Application.ReentrantLock.Main.executor": "Run",
+    "Application.WaitNOtify.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in Multithreads_practice.executor": "Run",
+    "JUnit.ConcurrentBankTest.concurrentBankTest.executor": "Run",
+    "JUnit.CustomQueueTest.customQueueTest.executor": "Run",
+    "JUnit.CustomQueueTest.executor": "Run",
+    "JUnit.PageVisitorsTest.executor": "Run",
+    "JUnit.TaskQueueManagerTest.executor": "Run",
+    "JUnit.TaskQueueManagerTest.test1.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ploshchinsky/IdeaProjects/Genercis_Practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5201845",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.CustomQueueTest">
+}]]></component>
+  <component name="RunManager" selected="JUnit.ConcurrentBankTest.concurrentBankTest">
     <configuration name="All in Multithreads_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrentBankTest.concurrentBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrentBankTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ConcurrentBankTest" />
+      <option name="MAIN_CLASS_NAME" value="ConcurrentBankTest.ConcurrentBankTest" />
+      <option name="METHOD_NAME" value="concurrentBankTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,22 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskQueueManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multithreads_practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TaskQueueManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConcurrentBankTest.concurrentBankTest" />
         <item itemvalue="JUnit.CustomQueueTest" />
         <item itemvalue="JUnit.CustomQueueTest.customQueueTest" />
         <item itemvalue="JUnit.PageVisitorsTest" />
         <item itemvalue="JUnit.All in Multithreads_practice" />
-        <item itemvalue="JUnit.TaskQueueManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +154,7 @@
       <workItem from="1716883124885" duration="2502000" />
       <workItem from="1716886746673" duration="1546000" />
       <workItem from="1716975226066" duration="35000" />
-      <workItem from="1720509060721" duration="853000" />
+      <workItem from="1720509060721" duration="2771000" />
     </task>
     <servers />
   </component>
