@@ -48,6 +48,7 @@
     "JUnit.CustomQueueTest.customQueueTest.executor": "Run",
     "JUnit.CustomQueueTest.executor": "Run",
     "JUnit.PageVisitorsTest.executor": "Run",
+    "JUnit.SafeCounterTest.safeCounterTest.executor": "Run",
     "JUnit.TaskQueueManagerTest.executor": "Run",
     "JUnit.TaskQueueManagerTest.test1.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -71,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ComplexTaskExecutorTest.taskExecutorTest">
+  <component name="RunManager" selected="JUnit.SafeCounterTest.safeCounterTest">
     <configuration name="ComplexTaskExecutorTest.taskExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <extension name="coverage">
@@ -123,22 +124,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageVisitorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SafeCounterTest.safeCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PageVisitorsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lock.SafeCounter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lock.SafeCounter" />
+      <option name="MAIN_CLASS_NAME" value="Lock.SafeCounter.SafeCounterTest" />
+      <option name="METHOD_NAME" value="safeCounterTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SafeCounterTest.safeCounterTest" />
         <item itemvalue="JUnit.ComplexTaskExecutorTest.taskExecutorTest" />
         <item itemvalue="JUnit.ConcurrentBankTest.concurrentBankTest" />
         <item itemvalue="JUnit.CustomQueueTest" />
         <item itemvalue="JUnit.CustomQueueTest.customQueueTest" />
-        <item itemvalue="JUnit.PageVisitorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,7 @@
       <workItem from="1716883124885" duration="2502000" />
       <workItem from="1716886746673" duration="1546000" />
       <workItem from="1716975226066" duration="35000" />
-      <workItem from="1720509060721" duration="10317000" />
+      <workItem from="1720509060721" duration="11578000" />
     </task>
     <servers />
   </component>
