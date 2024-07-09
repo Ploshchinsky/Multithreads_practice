@@ -1,9 +1,7 @@
-package CyclicBarrier.example1;
+package CyclicBarrier.ComplexTaskExecutor;
 
-import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class ComplexTask implements Callable<Integer> {
     private volatile int counter = 0;

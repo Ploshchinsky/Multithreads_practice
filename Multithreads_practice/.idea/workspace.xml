@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CyclicBarrier/Worker/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CyclicBarrier/Worker/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CyclicBarrier/example1/ComplexTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CyclicBarrier/ComplexTaskExecutor/ComplexTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CyclicBarrier/example1/ComplexTaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CyclicBarrier/ComplexTaskExecutor/ComplexTaskExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComplexTaskExecutorTest/ComplexTaskExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CyclicBarrier/ComplexTaskExecutor/ComplexTaskExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CyclicBarrier/Worker/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CyclicBarrier/Worker/WorkerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
     "JUnit.SafeCounterTest.safeCounterTest.executor": "Run",
     "JUnit.TaskQueueManagerTest.executor": "Run",
     "JUnit.TaskQueueManagerTest.test1.executor": "Run",
+    "JUnit.WorkerTest.workerTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -72,17 +78,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SafeCounterTest.safeCounterTest">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="CyclicBarrier.ComplexTaskExecutor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WorkerTest.workerTest">
     <configuration name="ComplexTaskExecutorTest.taskExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ComplexTaskExecutorTest.*" />
+          <option name="PATTERN" value="CyclicBarrier.ComplexTaskExecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ComplexTaskExecutorTest" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTaskExecutorTest.ComplexTaskExecutorTest" />
+      <option name="PACKAGE_NAME" value="CyclicBarrier.ComplexTaskExecutor" />
+      <option name="MAIN_CLASS_NAME" value="CyclicBarrier.ComplexTaskExecutor.ComplexTaskExecutorTest" />
       <option name="METHOD_NAME" value="taskExecutorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,16 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomQueueTest.customQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multithreads_practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomQueueTest" />
-      <option name="METHOD_NAME" value="customQueueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SafeCounterTest.safeCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <extension name="coverage">
@@ -140,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkerTest.workerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Multithreads_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CyclicBarrier.Worker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CyclicBarrier.Worker" />
+      <option name="MAIN_CLASS_NAME" value="CyclicBarrier.Worker.WorkerTest" />
+      <option name="METHOD_NAME" value="workerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WorkerTest.workerTest" />
         <item itemvalue="JUnit.SafeCounterTest.safeCounterTest" />
         <item itemvalue="JUnit.ComplexTaskExecutorTest.taskExecutorTest" />
         <item itemvalue="JUnit.ConcurrentBankTest.concurrentBankTest" />
         <item itemvalue="JUnit.CustomQueueTest" />
-        <item itemvalue="JUnit.CustomQueueTest.customQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +187,7 @@
       <workItem from="1716883124885" duration="2502000" />
       <workItem from="1716886746673" duration="1546000" />
       <workItem from="1716975226066" duration="35000" />
-      <workItem from="1720509060721" duration="11578000" />
+      <workItem from="1720509060721" duration="12365000" />
     </task>
     <servers />
   </component>

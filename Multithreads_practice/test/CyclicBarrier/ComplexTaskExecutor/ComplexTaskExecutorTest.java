@@ -1,12 +1,8 @@
-package ComplexTaskExecutorTest;
+package CyclicBarrier.ComplexTaskExecutor;
 
-import CyclicBarrier.example1.ComplexTaskExecutor;
+import CyclicBarrier.ComplexTaskExecutor.ComplexTaskExecutor;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.*;
 
 public class ComplexTaskExecutorTest {
     @Test

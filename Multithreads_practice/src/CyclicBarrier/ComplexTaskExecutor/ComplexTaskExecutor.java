@@ -1,4 +1,4 @@
-package CyclicBarrier.example1;
+package CyclicBarrier.ComplexTaskExecutor;
 
 import java.util.ArrayList;
 import java.util.List;
