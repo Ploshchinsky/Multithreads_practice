@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ConcurrentBankTest/ConcurrentBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConcurrentBankTest/ConcurrentBankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "Application.WaitNOtify.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in Multithreads_practice.executor": "Run",
+    "JUnit.ComplexTaskExecutorTest.taskExecutorTest.executor": "Run",
     "JUnit.ConcurrentBankTest.concurrentBankTest.executor": "Run",
     "JUnit.CustomQueueTest.customQueueTest.executor": "Run",
     "JUnit.CustomQueueTest.executor": "Run",
@@ -71,11 +71,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ConcurrentBankTest.concurrentBankTest">
-    <configuration name="All in Multithreads_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ComplexTaskExecutorTest.taskExecutorTest">
+    <configuration name="ComplexTaskExecutorTest.taskExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ComplexTaskExecutorTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ComplexTaskExecutorTest" />
+      <option name="MAIN_CLASS_NAME" value="ComplexTaskExecutorTest.ComplexTaskExecutorTest" />
+      <option name="METHOD_NAME" value="taskExecutorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComplexTaskExecutorTest.taskExecutorTest" />
         <item itemvalue="JUnit.ConcurrentBankTest.concurrentBankTest" />
         <item itemvalue="JUnit.CustomQueueTest" />
         <item itemvalue="JUnit.CustomQueueTest.customQueueTest" />
         <item itemvalue="JUnit.PageVisitorsTest" />
-        <item itemvalue="JUnit.All in Multithreads_practice" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +162,7 @@
       <workItem from="1716883124885" duration="2502000" />
       <workItem from="1716886746673" duration="1546000" />
       <workItem from="1716975226066" duration="35000" />
-      <workItem from="1720509060721" duration="2771000" />
+      <workItem from="1720509060721" duration="10317000" />
     </task>
     <servers />
   </component>
