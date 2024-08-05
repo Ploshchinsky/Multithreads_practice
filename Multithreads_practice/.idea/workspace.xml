@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdd7449-100d-4808-842a-34637e811813" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForkJoinPool/FindMax/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForkJoinPool/FindMax/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,8 @@
   "keyToString": {
     "Application.ArraySumCalculating.executor": "Run",
     "Application.ConcurrentCollections.TaskQueueManager.Main.executor": "Run",
+    "Application.FJPFindMax.executor": "Run",
+    "Application.FjpExample1.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PageVisitors.executor": "Run",
     "Application.ReentrantLock.Main.executor": "Run",
@@ -79,7 +82,20 @@
       <recent name="CyclicBarrier.ComplexTaskExecutor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComputationTaskTest.computationTaskTest">
+  <component name="RunManager" selected="Application.FJPFindMax">
+    <configuration name="FJPFindMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForkJoinPool.FindMax.FJPFindMax" />
+      <module name="Multithreads_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ForkJoinPool.FindMax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplexTaskExecutorTest.taskExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Multithreads_practice" />
       <extension name="coverage">
@@ -107,22 +123,6 @@
       <option name="PACKAGE_NAME" value="CyclicBarrier.ComputationTask" />
       <option name="MAIN_CLASS_NAME" value="CyclicBarrier.ComputationTask.ComputationTaskTest" />
       <option name="METHOD_NAME" value="computationTaskTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrentBankTest.concurrentBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Multithreads_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConcurrentBankTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ConcurrentBankTest" />
-      <option name="MAIN_CLASS_NAME" value="ConcurrentBankTest.ConcurrentBankTest" />
-      <option name="METHOD_NAME" value="concurrentBankTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FJPFindMax" />
         <item itemvalue="JUnit.ComputationTaskTest.computationTaskTest" />
         <item itemvalue="JUnit.WorkerTest.workerTest" />
         <item itemvalue="JUnit.SafeCounterTest.safeCounterTest" />
         <item itemvalue="JUnit.ComplexTaskExecutorTest.taskExecutorTest" />
-        <item itemvalue="JUnit.ConcurrentBankTest.concurrentBankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +190,9 @@
       <workItem from="1716883124885" duration="2502000" />
       <workItem from="1716886746673" duration="1546000" />
       <workItem from="1716975226066" duration="35000" />
-      <workItem from="1720509060721" duration="13657000" />
+      <workItem from="1720509060721" duration="13721000" />
+      <workItem from="1720597900698" duration="28000" />
+      <workItem from="1722859624179" duration="2428000" />
     </task>
     <servers />
   </component>
